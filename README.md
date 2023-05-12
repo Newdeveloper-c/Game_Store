@@ -1,20 +1,27 @@
-# Game_Store
+# Game Store
+An online eCommerce web store, built with ASP.NET MVC in C#.
 
-Planning-stage:
-  
-  For staff:
-  - Adding new game(1.3)
-  - Assign genres to game (1.4)
-  - Tie an image (1.6)
-  - Edit game description, price, ... (1.7)
-  - Delete game (1.8)
-  
-  For users:
-  - Home page with whole list of games visible (1.1)
-  - Game decription page (1.2)
-  - Payment page
-  - Filter for list of games
-  
-  For me:
-  - Find and gather all need wikis.
-  - 
+<kbd>![image](/public/games.png)</kbd>
+
+# Function
+This website has all the required functions as an eCommerce web store. Here are the available features:
+* Membership: Regular User, Advanced User, Admin User.
+* User Authentication - Register, Login, User Profile, Reset Password, Role, etc.
+* Product Management - Create, Update, Delete product.
+* User Management - Create, Update, Delete user.
+* Procure System - Shopping Cart, Order, Payment, Shipping.
+* Website Management - Dashboard.
+* General Function - Product Search.
+
+# Technology
+The frameworks and libraries used for this app are listed below.
+* C#, ASP.NET MVC, WebAPI
+* Entity Framework (Code First)
+* SQL Server for persistence
+* Bootstrap, jQuery
+* Ninject for Dependency Injection
+* ASP.Net Identity: User and Role, Admin Area
+* Authentication and Authorization
+* Third-party Payment Gateway
+* Cache: Output Caching, ASP.NET Cache
+
